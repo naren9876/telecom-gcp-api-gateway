@@ -39,3 +39,4 @@ Automatic deployment on push to main branch via GitHub Actions CI/CD.
 - Deploy to Cloud Run
 # Updated Mon Oct  5 10:00:18 EDT 2026
 test
+verify secrets
