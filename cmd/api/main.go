@@ -43,7 +43,7 @@ func main() {
 func healthHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, `{"status":"healthy","service":"api-gateway"}`)
+	fmt.Fprintf(w, `{"status":"healthy","service":"api-gateway-v2"}`)
 }
 
 func gatewayHandler(w http.ResponseWriter, r *http.Request) {
