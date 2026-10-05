@@ -51,3 +51,4 @@ func gatewayHandler(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 	fmt.Fprintf(w, `{"message":"API Gateway","version":"1.0"}`)
 }
+
