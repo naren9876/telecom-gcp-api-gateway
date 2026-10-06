@@ -41,3 +41,4 @@ Automatic deployment on push to main branch via GitHub Actions CI/CD.
 test
 verify secrets
 test with correct secrets
+test with correct secrets
